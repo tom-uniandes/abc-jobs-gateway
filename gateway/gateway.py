@@ -1,7 +1,7 @@
 from flask import request, jsonify
 import requests
 
-urlBaseEvaluation = 'http://localhost:5000'
+urlBaseEvaluation = 'http://evaluacion:5000'
 message_error = "El envío falló, intente nuevamente"
 
 class ExceptionHandling():
